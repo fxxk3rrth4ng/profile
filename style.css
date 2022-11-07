@@ -10,10 +10,13 @@
 
 body {
 	font-family: "AppleSDGothicNeo", sans-serif;
-	margin-top: 1em;
-	margin-left: 1.5em;
+	margin: 1em 0 0 1.5em;
 	background-color: #191919;
 	color: #f0f0f0;
+}
+
+.handle {
+	font-family: "Gotham", sans-serif;
 }
 
 a {
@@ -21,24 +24,20 @@ a {
 }
 
 .a {
-	border: 1px solid white;
 	border-collapse: collapse;
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-.left,
-.right {
-	border: 1px solid white;
-	height: 2.5em;
+	margin: 1em 0 1em 0;
 }
 
 .left {
+	border: 1px solid white;
+	height: 2.5em;
 	width: 5em;
 	text-align: center;
 }
 
 .right {
+	border: 1px solid white;
+	height: 2.5em;
 	width: 15em;
 	padding-left: 1.5em;
 }
@@ -61,10 +60,4 @@ h3 {
 	color: #777777;
 	margin-top: 2.5em;
 	font-size: 0.6em;
-}
-
-.handle {
-	font-family: "Gotham", sans-serif;
-	/* background: white;
-	color: black; */
 }
