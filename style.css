@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "AppleSDGothicNeo";
+	src: url("./font/AppleSDGothicNeoM.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("./font/Gotham-Black.otf") format("opentype");
+}
+
+body {
+	font-family: "AppleSDGothicNeo", sans-serif;
+	margin-top: 1em;
+	margin-left: 1.5em;
+	background-color: #191919;
+	color: #f0f0f0;
+}
+
+a {
+	color: inherit;
+}
+
+.a {
+	border: 1px solid white;
+	border-collapse: collapse;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.left,
+.right {
+	border: 1px solid white;
+	height: 2.5em;
+}
+
+.left {
+	width: 5em;
+	text-align: center;
+}
+
+.right {
+	width: 15em;
+	padding-left: 1.5em;
+}
+
+td.link {
+	width: 3em;
+}
+
+tr.link {
+	height: 3em;
+}
+
+h1,
+h3 {
+	display: inline;
+}
+
+.footer {
+	color: #777777;
+	margin-top: 2.5em;
+	font-size: 0.6em;
+}
+
+.handle {
+	font-family: "Gotham", sans-serif;
+	/* background: white;
+	color: black; */
+}
