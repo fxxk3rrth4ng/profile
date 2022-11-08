@@ -38,8 +38,8 @@ a {
 .right {
 	border: 1px solid white;
 	height: 2.5em;
-	width: 15em;
-	padding-left: 1.5em;
+	width: 18em;
+	padding-left: 0.75em;
 }
 
 td.link {
@@ -60,4 +60,9 @@ h3 {
 	color: #777777;
 	margin-top: 2.5em;
 	font-size: 0.6em;
+}
+
+div.link {
+	width: 3.1em;
+	text-align: center;
 }
