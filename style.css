@@ -66,3 +66,23 @@ div.link {
 	width: 3.1em;
 	text-align: center;
 }
+
+.mastodon:hover {
+	color: #2e85d0;
+}
+
+.twitter:hover {
+	color: #1c9aef;
+}
+
+.misskey:hover {
+	color: #96cf4a;
+}
+
+.kakaopay:hover {
+	color: #ffe90e;
+}
+
+.github:hover {
+	color: #9c90e0;
+}
