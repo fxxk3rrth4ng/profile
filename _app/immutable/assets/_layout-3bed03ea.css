@@ -1,13 +1,1 @@
-body {
-  margin: 15px 0 0 25px;
-}
-
-a {
-  text-decoration: inherit;
-  color: inherit;
-}
-
-a:hover {
-  text-decoration: underline;
-  font-weight: 700;
-}
+body{margin:15px 0 0 25px}a{text-decoration:inherit;color:inherit}a:hover{text-decoration:underline;font-weight:700}
